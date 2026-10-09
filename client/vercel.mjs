@@ -1,19 +1,15 @@
-const apiOrigin = process.env.API_ORIGIN?.replace(/\/$/, '');
-
-if (!apiOrigin) {
-  throw new Error('Set API_ORIGIN in Vercel environment variables.');
-}
-
-export const config = {
-  framework: 'vite',
-  rewrites: [
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
     {
-      source: '/api/:path*',
-      destination: `${apiOrigin}/api/:path*`
+      "source": "/api/:path*",
+      "destination": "https://YOUR-RAILWAY-DOMAIN/api/:path*"
     },
     {
-      source: '/(.*)',
-      destination: '/index.html'
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
-};
+}
