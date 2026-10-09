@@ -1,0 +1,42 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: securaware
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: securaware
+    volumes: [dbdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U securaware"]
+      interval: 4s
+      retries: 20
+  api:
+    build: ./server
+    restart: unless-stopped
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      DATABASE_URL: postgres://securaware:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@db:5432/securaware
+      PORT: 4000
+      NODE_ENV: development
+      APP_ORIGIN: http://localhost:5173
+      BOOTSTRAP_EMAIL: ${BOOTSTRAP_EMAIL:-directing.manager@divimaga.example}
+      BOOTSTRAP_NAME: ${BOOTSTRAP_NAME:-Directing Manager}
+      BOOTSTRAP_PASSWORD: ${BOOTSTRAP_PASSWORD:?Set BOOTSTRAP_PASSWORD in .env}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-1025}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_FROM: ${SMTP_FROM:-SecurAware <no-reply@divimaga.example>}
+    volumes:
+      - uploads:/app/uploads
+      - ./seed:/app/seed:ro
+    ports: ["127.0.0.1:4000:4000"]
+  web:
+    build: ./client
+    depends_on: [api]
+    ports: ["127.0.0.1:5173:80"]
+volumes:
+  dbdata:
+  uploads:

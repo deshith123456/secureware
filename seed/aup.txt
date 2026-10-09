@@ -1,0 +1,213 @@
+1. Purpose & Scope
+
+1.1 Purpose
+
+This Acceptable Use Policy (AUP) defines the requirements for the appropriate, responsible, and secure use of SecurAware and related Divimaga Holdings (PVT) Ltd information resources. It supports the organization’s information security awareness and compliance activities by setting clear expectations for user access, policy acknowledgment, security training, safe handling of information, and compliance monitoring.
+
+The policy is intended to protect company and customer information, user accounts, security and compliance records, and the integrity of Divimaga Holdings’ information security awareness processes.
+
+1.2 Scope and Applicability
+
+This policy applies to all authorized SecurAware users, including Directors/CEOs, the Directing Manager, Assistant Directing Manager, Department Managers/Heads in HR and Finance, and HR and Finance employees.
+
+It applies when SecurAware is accessed through supported web browsers from authorized company devices or supported personal devices. Where relevant, it also applies to company accounts, email, devices, information, and other resources used in connection with SecurAware activities.
+
+SecurAware operates as a separate security-awareness and policy-management platform. It does not directly modify security settings in the MPAC system, company devices, network infrastructure, or other third-party systems.
+
+1.3 Responsibilities
+
+All users are responsible for protecting their accounts, following assigned policies, completing required awareness activities, using SecurAware only within their assigned permissions, and promptly reporting suspected security incidents. Authorized management users are responsible for administering users, policies, training, simulated phishing-awareness activities, and compliance information according to their assigned roles and permissions.
+
+2. Definitions
+
+Company Systems – Any device, application, account, service, or information resource authorized for Divimaga Holdings business use, including SecurAware and the MPAC system.
+
+SecurAware User Account – An individual account created for an authorized user to access the SecurAware platform.
+
+Sensitive Information – Company, employee, customer, financial, or other information requiring appropriate protection, including customer NIC information, photographs, loan information, financial records, and transaction records.
+
+Personal Device – A personally owned device used for authorized work-related activities.
+
+Policy Acknowledgment – The digital confirmation provided by a user to indicate that the user has read and acknowledged an assigned policy version.
+
+Simulated Phishing-Awareness Campaign – An authorized security-awareness exercise designed to evaluate and improve users’ ability to recognize phishing attempts without collecting actual user credentials.
+
+Compliance Record – Information maintained by SecurAware concerning policy acknowledgment, training completion, quiz results, phishing-awareness activities, or other relevant security-awareness requirements.
+
+3. Application Usage Guidelines
+
+These guidelines govern the day-to-day use of SecurAware and are directly aligned with the functions provided by the platform.
+
+3.1 Authorized Access and Accounts
+
+• Access SecurAware only through your own authorized individual account. Public self-registration is not permitted.
+
+• Do not share your account, allow another person to use it, or attempt to use another user’s account.
+
+• Access only the features, records, dashboards, and administrative functions permitted for your assigned role.
+
+• Log out or otherwise secure your session when access is no longer required, and do not leave an active session unattended.
+
+3.2 Multi-Factor Authentication
+
+• Use Multi-Factor Authentication (MFA) where it is required for your role. TOTP-based MFA is mandatory for management and administrative roles and is available to HR and Finance employees.
+
+• Never disclose an MFA verification code to another person or approve an authentication request you did not initiate.
+
+3.3 Policy Usage and Acknowledgment
+
+• Read each security policy assigned to your role, department, branch, or user group and personally provide the required digital acknowledgment before the assigned deadline.
+
+• Do not acknowledge a policy on another person’s behalf or ask another person to acknowledge a policy for you.
+
+• SecurAware records the relevant user, policy version, acknowledgment date, and time as part of the compliance record.
+
+3.4 Security Training and Quizzes
+
+• Complete assigned role-based security-awareness courses and quizzes within the required timeframe.
+
+• Participate honestly and do not bypass training content, manipulate quiz results, falsify completion, use another user’s account, or modify training or compliance information without authorization.
+
+• Training and quiz results may be reviewed by authorized management users to identify areas where additional or refresher training may be needed.
+
+3.5 Simulated Phishing-Awareness Activities
+
+• Department Managers/Heads and HR and Finance employees may receive controlled simulated phishing-awareness activities when authorized by management.
+
+• Such campaigns must be used only for legitimate awareness purposes, must not collect actual passwords or credentials, must not interfere with normal business operations, and must not be used to publicly embarrass or identify individuals.
+
+• Campaign results must be accessible only to authorized users according to their assigned permissions.
+
+3.6 Password Awareness Tester
+
+• Use the Password Awareness Tester only with sample or practice passwords for learning purposes.
+
+• Do not enter a current SecurAware password, MPAC password, company email password, personal account password, or any other real authentication credential.
+
+• Passwords entered into the tester are intended only for security-awareness evaluation and must not be retained as user password records.
+
+3.7 Appropriate Business Use
+
+• Use SecurAware and related company resources only for legitimate organizational, security-awareness, policy-management, compliance, and other authorized business purposes.
+
+• Do not use SecurAware in a manner that disrupts the platform, interferes with other users, or adversely affects normal business activities.
+
+4. Security Guidelines & Best Practices
+
+4.1 Password and Account Security
+
+• Use strong and unique passwords for work accounts and avoid reusing company passwords for personal accounts.
+
+• Never disclose passwords, MFA codes, or active authenticated sessions to another person.
+
+• Avoid recording passwords in insecure locations and promptly report suspected account compromise.
+
+• Do not attempt to bypass authentication controls, account lockout controls, MFA requirements, or role-based access restrictions.
+
+4.2 Phishing and Suspicious Communications
+
+• Remain alert to suspicious emails, links, attachments, login pages, account-verification requests, messages, and unexpected requests for information.
+
+• Report suspected phishing or other suspicious activity promptly using Divimaga Holdings’ approved reporting method.
+
+• Do not knowingly distribute phishing links, malicious attachments, or misleading security messages except as part of an authorized SecurAware awareness campaign.
+
+4.3 Device and Personal-Device Security
+
+• Lock devices when left unattended and take reasonable precautions to prevent unauthorized physical access.
+
+• Personal devices used for authorized company-related activities should use an appropriate screen lock, current security updates, and reasonable protection against unauthorized access.
+
+4.4 Sensitive Information Handling
+
+• Access sensitive company, customer, employee, or financial information only when required for assigned work responsibilities.
+
+• Share sensitive information only for legitimate business purposes and through approved methods, and do not intentionally disclose it to unauthorized individuals.
+
+• Respect SecurAware role-based access restrictions and do not attempt to obtain organization-wide, departmental, or individual information beyond your assigned permissions.
+
+4.5 Security Incident Reporting
+
+Users must promptly report suspected or confirmed security incidents involving SecurAware or related company resources. Examples include suspected account compromise, unexpected MFA requests, phishing or suspicious messages, loss or theft of a device used for work, suspected unauthorized access, accidental disclosure of sensitive information, unexpected changes to policy or compliance records, and attempts to bypass SecurAware security controls.
+
+Incidents should be reported to the appropriate authorized management or technical contact using Divimaga Holdings’ approved reporting process. Users must not intentionally conceal a known security incident.
+
+5. Prohibited Use
+
+The following activities are prohibited when using SecurAware or related Divimaga Holdings information resources:
+
+• accessing or attempting to access accounts, records, administrative functions, departments, or information beyond the user’s assigned permissions;
+
+• sharing login credentials or MFA codes, using another person’s account, or allowing another person to use the user’s account;
+
+• attempting to bypass authentication, authorization, account lockout, or other security controls;
+
+• introducing malware, malicious code, or unauthorized scripts, or intentionally disrupting or degrading SecurAware;
+
+• falsifying policy acknowledgments, training completion, quiz results, or simulated phishing-awareness results;
+
+• altering, deleting, or interfering with audit or compliance records without authorization;
+
+• entering real passwords or credentials into the Password Awareness Tester or attempting to collect another user’s credentials;
+
+• using SecurAware for unauthorized, inappropriate, or non-business purposes; and
+
+• using security-awareness functionality to target, deceive, embarrass, or harm another user outside an authorized awareness activity.
+
+6. Monitoring & Privacy Notice
+
+SecurAware records information necessary to support security, policy management, awareness training, compliance monitoring, and audit activities. Depending on the activity, recorded information may include:
+
+• successful and failed authentication events, account lockouts, password-reset events, timestamps, and relevant source information such as source IP address where recorded by the system;
+
+• policy acknowledgments, policy versions, and relevant policy-management activity;
+
+• training completion, quiz results, and simulated phishing-awareness campaign results;
+
+• important administrative actions and other relevant compliance information.
+
+Access to monitoring and compliance information must be limited according to assigned roles and permissions. SecurAware should collect only information necessary for its intended functions and retain records only for an appropriate period determined by organizational and applicable data-protection requirements, including applicable requirements of Sri Lanka’s Personal Data Protection Act No. 9 of 2022.
+
+Monitoring information must be used only for legitimate security, compliance, management, and audit purposes and not for unnecessary or inappropriate monitoring of employees.
+
+7. Policy Enforcement & Compliance Measures
+
+Compliance with this AUP is required for all users to whom the policy is assigned. SecurAware supports enforcement and monitoring through digital acknowledgment, training and quiz records, compliance dashboards, notifications, and protected audit information.
+
+7.1 Policy Acknowledgment and Compliance Tracking
+
+• Users must acknowledge this AUP and other assigned security policies before the applicable deadline.
+
+• Required training, quiz completion, policy acknowledgments, and applicable security-awareness activities will be tracked through SecurAware.
+
+• Authorized management users may review policy acknowledgment, training completion, quiz results, simulated phishing-awareness outcomes, and compliance trends according to their assigned role and organizational scope.
+
+7.2 Reminders and Overdue Activities
+
+• SecurAware may issue notifications and reminders for outstanding policy acknowledgments, assigned training, overdue training, policy updates, and other relevant compliance requirements.
+
+• Where required activities become overdue, the appropriate authorized management user may be notified for follow-up.
+
+7.3 Handling Suspected Violations
+
+Suspected violations of this AUP must be reviewed by the appropriate authorized management role using relevant system and compliance records, the nature of the suspected violation, the user’s responsibilities, and other relevant circumstances.
+
+Where a violation is confirmed, appropriate action may be taken in accordance with Divimaga Holdings’ normal organizational procedures. A user’s SecurAware access may be restricted or deactivated where necessary and authorized.
+
+7.4 Protection of Compliance Records
+
+Users must not alter, delete, falsify, or interfere with policy acknowledgments, training records, quiz results, phishing-awareness results, audit information, or other compliance records unless modification is specifically permitted as part of an authorized administrative role.
+
+7.5 Exceptions
+
+Any exception to this policy must have a legitimate organizational reason, be approved by an appropriately authorized management role, and be documented where applicable. Exceptions must not be used simply to bypass established security controls for convenience.
+
+7.6 Policy Review, Versioning and Re-acknowledgment
+
+This AUP should be reviewed at least annually and whenever significant changes occur to SecurAware, organizational security requirements, user roles or responsibilities, relevant security risks, or applicable data-protection requirements.
+
+Policy updates should follow the SecurAware policy-management workflow: Draft → Review → Approved → Published → Archived. Previous versions should be retained in accordance with SecurAware version-management and audit requirements. When a material update is published, affected users may be required to review and acknowledge the updated version again.
+
+7.7 Digital User Acknowledgment
+
+By digitally acknowledging this AUP through SecurAware, the user confirms that they have read and understood it, agree to comply with its requirements, and understand that relevant compliance activity may be recorded and reviewed by authorized users for legitimate security, management, and audit purposes. This acknowledgment does not replace compliance with other applicable Divimaga Holdings policies.

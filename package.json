@@ -1,0 +1,1 @@
+{"name":"securaware","private":true,"scripts":{"dev":"docker compose up --build","test":"node --test server/tests/*.test.cjs"}}

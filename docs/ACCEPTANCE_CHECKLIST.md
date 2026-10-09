@@ -1,0 +1,21 @@
+# Demonstration and security acceptance checklist
+
+- [ ] Docker startup completes and `/api/health` returns OK.
+- [ ] Bootstrap account exists only once and requires temporary password change.
+- [ ] Management user cannot reach protected functions before TOTP setup.
+- [ ] Returning MFA user must enter a valid TOTP code.
+- [ ] Current AUP must be acknowledged before accessing normal modules; publication of new approved AUP version triggers the gate again.
+- [ ] HR/Finance employee can defer MFA, but management cannot.
+- [ ] CEO/Managers can create, assign, self-assign and complete courses without directly editing quiz outcomes.
+- [ ] Quiz scoring is backend-derived and maximum attempts enforced.
+- [ ] Evidence reviewer cannot approve their own evidence.
+- [ ] Extension reviewer cannot approve their own request.
+- [ ] Policy can be published only after CEO approval.
+- [ ] Department Head API requests for unrelated departments are denied.
+- [ ] Direct file access is denied without course/evidence access.
+- [ ] Point ledger adds one credit per verified completion; monthly and lifetime totals reconcile.
+- [ ] Campaign only targets Department Heads/Employees and does not collect credentials.
+- [ ] CSV report export is scope-limited.
+- [ ] Audit entries, notifications and deactivation/session invalidation work.
+- [ ] Upload validation, unsafe URLs, CSP, CSRF, SQL injection, XSS, rate limits and privacy checks reviewed.
+- [ ] Password Awareness Tester integrated and verified local-only before final demo.
