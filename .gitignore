@@ -1,6 +1,11 @@
 .env
+.env.*
+!.env.example
 node_modules/
 client/dist/
 server/uploads/
+uploads/
+client/.vercel/
+.vercel/
 *.log
 .DS_Store

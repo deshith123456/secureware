@@ -5,6 +5,9 @@
 
 An integrated, role-aware web application project for IE3072 Information Security Policy and Management. The planned Password Awareness Tester is deliberately **not included**; the application contains a labelled future-integration page for the team member's implementation.
 
+For a GitHub-backed Vercel demo with a working API and database, see
+[docs/GITHUB_VERCEL_DEPLOY.md](docs/GITHUB_VERCEL_DEPLOY.md).
+
 ## What is present in this source package
 
 - React/Vite responsive blue-and-navy dashboard UI, role-dependent sidebar navigation, searchable course cards, reusable sticky-header tables with adjustable visible-row limits, dialogs and forms.
