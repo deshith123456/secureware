@@ -5,7 +5,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://YOUR-RAILWAY-DOMAIN/api/:path*"
+      "destination": "https://secureware-production.up.railway.app/api/:path*"
     },
     {
       "source": "/(.*)",
